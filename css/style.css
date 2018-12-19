@@ -504,6 +504,21 @@ body {
 .search-form-submit:focus {
   color: #777;
 }
+#logo {
+  color: #562b2b;
+}
+#nav-rss-link {
+  color: #000;
+}
+#nav-search-btn {
+  color: #000;
+}
+.main-nav-link {
+  color: #000;
+}
+#wrap {
+  color: #948f90;
+}
 .article {
   margin: 50px 0;
 }
