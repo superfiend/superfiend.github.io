@@ -1352,6 +1352,9 @@ pre .javascript .function {
   margin-left: 15px;
   list-style: disc;
 }
+.widget a {
+  color: #191212;
+}
 .widget {
   line-height: 1.6em;
   word-wrap: break-word;
