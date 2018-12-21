@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SuperFiend -- 大魔王驾到</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-12-21T09:04:38.231Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>super fiend</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据结构-广义表</title>
+    <link href="http://yoursite.com/2018/12/21/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%B9%BF%E4%B9%89%E8%A1%A8/"/>
+    <id>http://yoursite.com/2018/12/21/数据结构-广义表/</id>
+    <published>2018-12-21T08:53:22.000Z</published>
+    <updated>2018-12-21T09:04:38.231Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>定义: 线性表的推广, 表中元素可以为表。<a id="more"></a></li><li>head: 表中的第一个元素。</li><li>tail: 表中head以外的其它元素构成的表。</li><li>长度: 表中元素的个数。</li><li>深度: 表中括号嵌套最深的层数。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;定义: 线性表的推广, 表中元素可以为表。
+    
+    </summary>
+    
+      <category term="数据结构" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+      <category term="概念" scheme="http://yoursite.com/tags/%E6%A6%82%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分类与标签(landscape)</title>
+    <link href="http://yoursite.com/2018/12/21/%E5%88%86%E7%B1%BB%E4%B8%8E%E6%A0%87%E7%AD%BE/"/>
+    <id>http://yoursite.com/2018/12/21/分类与标签/</id>
+    <published>2018-12-21T07:45:49.034Z</published>
+    <updated>2018-12-21T09:44:59.159Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="新建分类"><a href="#新建分类" class="headerlink" title="新建分类"></a>新建分类</h4><hr><ol><li>新建分类页面 <a id="more"></a><br>hexo new page categories  </li><li>给分类页面添加类型<br>在source文件夹中的categories文件夹下找到index.md文件，并在它的头部加上type: “categories”。  </li><li>给模板添加分类属性<br>打开scarffolds文件夹里的post.md文件，给它的头部加上categories:。</li><li>给文章添加分类  </li><li>给文章添加多级分类的方法, 采用[], 如[ca1, ca2]</li></ol><h4 id="新建标签"><a href="#新建标签" class="headerlink" title="新建标签"></a>新建标签</h4><hr><ol><li>新建标签页面<br>hexo new page tags  </li><li>给标签页面添加类型<br>在source文件夹中的tags文件夹下找到index.md文件，并在它的头部加上type: “tags”。  </li><li>给文章添加标签  </li><li>给文章添加多个标签的方法<br>a. 直接采用[], 如[tag1, tag2]<br>b. 前面加_, 如_tag1, _tag2</li></ol><hr><p>ps: 新建分类与新建标签是类似的, 不过post.md文件自带了tag属性, 若没有, 需要自行添加。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;新建分类&quot;&gt;&lt;a href=&quot;#新建分类&quot; class=&quot;headerlink&quot; title=&quot;新建分类&quot;&gt;&lt;/a&gt;新建分类&lt;/h4&gt;&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;新建分类页面
+    
+    </summary>
+    
+      <category term="博客相关" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+      <category term="页面" scheme="http://yoursite.com/tags/%E9%A1%B5%E9%9D%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>将文章置顶的方法</title>
+    <link href="http://yoursite.com/2018/12/20/hexo/"/>
+    <id>http://yoursite.com/2018/12/20/hexo/</id>
+    <published>2018-12-20T15:09:02.000Z</published>
+    <updated>2018-12-21T08:42:00.274Z</updated>
+    
+    <content type="html"><![CDATA[<p>将文章置顶需要执行以下两个命令:  </p><ol><li>$ npm uninstall hexo-generator-index –save  </li><li>$ npm install hexo-generator-index-pin-top –save</li></ol><p>随后在需要置顶的文章的头部信息中添加: top: true 就ok了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;将文章置顶需要执行以下两个命令:  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$ npm uninstall hexo-generator-index –save  &lt;/li&gt;
+&lt;li&gt;$ npm install hexo-generator-index-pin-top –save&lt;/l
+      
+    
+    </summary>
+    
+      <category term="博客相关" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写文章时遇到的一点问题以及解决方案</title>
+    <link href="http://yoursite.com/2018/12/20/notes/"/>
+    <id>http://yoursite.com/2018/12/20/notes/</id>
+    <published>2018-12-20T10:26:49.645Z</published>
+    <updated>2018-12-21T09:38:44.900Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>如何只在页面中预览内容的一部分?<br>加上&lt;!–more–&gt;标签  <a id="more"></a></li><li>如何在页面中显示特殊字符?<br>输入字符对应的编码, 比如&lt;对应&amp;lt, &gt;对应&amp;gt, 记得要在末尾加上;, 对于其它的特殊符号可以在<a href="https://blog.csdn.net/html5_/article/details/21639475" target="_blank" rel="noopener">这里找到</a>  </li><li>如何在页面中显示上标, 下标, 下划线等?<br>采用html语法, 如上标sup标签, 下标sub标签, 下划线u标签</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;如何只在页面中预览内容的一部分?&lt;br&gt;加上&amp;lt;!–more–&amp;gt;标签
+    
+    </summary>
+    
+      <category term="博客相关" scheme="http://yoursite.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    
+    
+      <category term="页面" scheme="http://yoursite.com/tags/%E9%A1%B5%E9%9D%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>置顶-数据结构</title>
+    <link href="http://yoursite.com/2018/12/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <id>http://yoursite.com/2018/12/20/数据结构/</id>
+    <published>2018-12-20T10:10:09.105Z</published>
+    <updated>2018-12-21T09:01:42.051Z</updated>
+    
+    <content type="html"><![CDATA[<p>过几天就要进行数据结构的考试了。 所以, 现在就要开始进行数据结构的复习了, 为了便于考前再度复习, 以及加深自己的理解, 因此一边复习, 一边记录复习的内容。  </p><p>一. 填空题  </p><ol><li>一个n&times;n的对称矩阵, 如果以行或列为主序压缩存放入内存, 则需要<u>n&times;(n+1)/2</u>个存储单元。<a id="more"></a></li><li>若用一个长度为6的数组来实现循环队列, 且当前rear和front的值分别为0和3,  则从队列中删除一个元素, 在增加两个元素后, rear和front的值分别为<u>2</u>和<u>4</u>。</li><li>在长度为n的线性表中查找值为x的元素的时间复杂度为<u>O(n)</u>。</li><li>深度为k的二叉树最多有<u>2</u><sup>k</sup><u>-1</u>个节点, 最少有<u>k</u>个节点。  </li><li>? 用顺序查找法在长度为n的线性表中进行查找, 在等概率情况下, 查找成功的平均比较次数是<u>n&times;(n+1)/2</u>。  </li><li>图的广度优先遍历算法中用到的辅助队列, 每个顶点最多进队<u>1</u>次。  </li><li>在表达式”4-6/3+(7-3*2-5……”求值的过程中, 处理5时刻的操作数栈的内容为<u>2, 1, 5</u>, 运算符栈的内容为<u>+ ( -</u>。</li><li>在有n个叶子节点的哈夫曼树中, 总结点数是<u>2&times;n-1</u>。</li><li>对n个元素进行归并排序, 需要的辅助空间为<u>n</u>。</li><li>对一个顺序栈或队列, 插入或删除元素的时间复杂度为<u>O(1)</u>。</li><li>在一个具有n个顶点的有向完全图中包含有<u>n&times;(n-1)</u>条边。</li></ol><p><mark>ps: ? 代表有疑惑, 然后就是读题一定要仔细, 避免惯性思维, 我在一开始就把2题中的rear和front的意义弄反了,还把11题的有向看成了无向, 呜呜~~</mark></p><p>二. 概念(选择题改编)  </p><ol><li>给单链表加上头结点的主要原因是<u>简化算法</u>。  </li><li>顺序表和链表比较, <u>插入与删除的时间效率</u>不是顺序表的优势。  </li><li>关于栈和队列, <u>队列非常适合于表达式求值的算符优先法</u>说法不妥。  </li><li>建立线索二叉树的目的是<u>方便查找某节点的前驱或后继</u>。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;过几天就要进行数据结构的考试了。 所以, 现在就要开始进行数据结构的复习了, 为了便于考前再度复习, 以及加深自己的理解, 因此一边复习, 一边记录复习的内容。  &lt;/p&gt;
+&lt;p&gt;一. 填空题  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一个n&amp;times;n的对称矩阵, 如果以行或列为主序压缩存放入内存, 则需要&lt;u&gt;n&amp;times;(n+1)/2&lt;/u&gt;个存储单元。
+    
+    </summary>
+    
+      <category term="数据结构" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+      <category term="考试" scheme="http://yoursite.com/tags/%E8%80%83%E8%AF%95/"/>
+    
+      <category term="置顶" scheme="http://yoursite.com/tags/%E7%BD%AE%E9%A1%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/12/19/test/"/>
+    <id>http://yoursite.com/2018/12/19/test/</id>
+    <published>2018-12-19T13:27:55.864Z</published>
+    <updated>2018-12-19T13:27:55.864Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="我的第一篇博文"><a href="#我的第一篇博文" class="headerlink" title="我的第一篇博文"></a>我的第一篇博文</h5><p>你好, 大魔王。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;我的第一篇博文&quot;&gt;&lt;a href=&quot;#我的第一篇博文&quot; class=&quot;headerlink&quot; title=&quot;我的第一篇博文&quot;&gt;&lt;/a&gt;我的第一篇博文&lt;/h5&gt;&lt;p&gt;你好, 大魔王。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
