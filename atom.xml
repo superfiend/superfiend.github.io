@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-21T15:22:30.953Z</updated>
+  <updated>2018-12-21T16:27:25.335Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>markdown基础语法</title>
+    <link href="http://yoursite.com/2018/12/22/markdown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    <id>http://yoursite.com/2018/12/22/markdown基础语法/</id>
+    <published>2018-12-21T16:16:05.000Z</published>
+    <updated>2018-12-21T16:27:25.335Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="这是一篇介绍markdown基本语法的文章"><a href="#这是一篇介绍markdown基本语法的文章" class="headerlink" title="这是一篇介绍markdown基本语法的文章"></a>这是一篇介绍markdown基本语法的文章</h4><ol><li>标题 标题前加上#号, 共有六级标题  <a id="more"></a></li><li>字体<br>a. <em>斜体</em>, 用<em>包裹<br>b. <strong>粗体</strong>, 用<strong>包裹<br>c. </strong></em>斜粗体<strong><em>, 用</em></strong>包裹  </li><li><del>删除线</del> 用~~包裹</li><li>引用 前面加上&lt;号</li><li>分割线 三个或以上的*号或者- </li></ol><hr><ol start="6"><li>图片 ![图片alt] (图片url”图片标题”)  </li><li>超链接 [超链接名] (超链接url”超链接标题”)</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;这是一篇介绍markdown基本语法的文章&quot;&gt;&lt;a href=&quot;#这是一篇介绍markdown基本语法的文章&quot; class=&quot;headerlink&quot; title=&quot;这是一篇介绍markdown基本语法的文章&quot;&gt;&lt;/a&gt;这是一篇介绍markdown基本语法的文章&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;标题 标题前加上#号, 共有六级标题
+    
+    </summary>
+    
+      <category term="markdown" scheme="http://yoursite.com/categories/markdown/"/>
+    
+      <category term="基础语法" scheme="http://yoursite.com/categories/markdown/%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+      <category term="基础语法" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>freemark null值处理</title>
@@ -45,11 +72,11 @@
   </entry>
   
   <entry>
-    <title>markdown生成流程图</title>
-    <link href="http://yoursite.com/2018/12/21/markdown%E7%94%9F%E6%88%90%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
-    <id>http://yoursite.com/2018/12/21/markdown生成流程图/</id>
+    <title>markdown流程图</title>
+    <link href="http://yoursite.com/2018/12/21/markdown%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
+    <id>http://yoursite.com/2018/12/21/markdown流程图/</id>
     <published>2018-12-21T15:00:58.000Z</published>
-    <updated>2018-12-21T15:16:11.692Z</updated>
+    <updated>2018-12-21T16:26:36.755Z</updated>
     
     <summary type="html">
     
@@ -57,6 +84,10 @@
     
       <category term="markdown" scheme="http://yoursite.com/categories/markdown/"/>
     
+      <category term="流程图" scheme="http://yoursite.com/categories/markdown/%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
+    
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
     
       <category term="流程图" scheme="http://yoursite.com/tags/%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
     
