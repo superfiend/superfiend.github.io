@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-21T16:27:25.335Z</updated>
+  <updated>2018-12-21T16:44:35.217Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>markdown基础语法</title>
+    <title>hexo安装rss插件</title>
+    <link href="http://yoursite.com/2018/12/22/hexo%E5%AE%89%E8%A3%85rss%E6%8F%92%E4%BB%B6/"/>
+    <id>http://yoursite.com/2018/12/22/hexo安装rss插件/</id>
+    <published>2018-12-21T16:37:19.000Z</published>
+    <updated>2018-12-21T16:44:35.217Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="本篇文章关于如何安装rss插件"><a href="#本篇文章关于如何安装rss插件" class="headerlink" title="本篇文章关于如何安装rss插件"></a>本篇文章关于如何安装rss插件</h4><ol><li>进入blog目录, 执行npm install hexo-generator-feed  <a id="more"></a></li><li>根目录下的_config.yml文件中，添加以下配置<br>#RSS订阅<br>plugin:<br>- hexo-generator-feed<br>feed:<br>type: atom<br>path: atom.xml<br>limit: 20  </li><li>在主题目录下的_config.yml目录下，添加如下配置<br>rss: /atom.xml</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;本篇文章关于如何安装rss插件&quot;&gt;&lt;a href=&quot;#本篇文章关于如何安装rss插件&quot; class=&quot;headerlink&quot; title=&quot;本篇文章关于如何安装rss插件&quot;&gt;&lt;/a&gt;本篇文章关于如何安装rss插件&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;进入blog目录, 执行npm install hexo-generator-feed
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>markdown基本语法</title>
     <link href="http://yoursite.com/2018/12/22/markdown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
     <id>http://yoursite.com/2018/12/22/markdown基础语法/</id>
     <published>2018-12-21T16:16:05.000Z</published>
-    <updated>2018-12-21T16:27:25.335Z</updated>
+    <updated>2018-12-21T16:32:31.022Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="这是一篇介绍markdown基本语法的文章"><a href="#这是一篇介绍markdown基本语法的文章" class="headerlink" title="这是一篇介绍markdown基本语法的文章"></a>这是一篇介绍markdown基本语法的文章</h4><ol><li>标题 标题前加上#号, 共有六级标题  <a id="more"></a></li><li>字体<br>a. <em>斜体</em>, 用<em>包裹<br>b. <strong>粗体</strong>, 用<strong>包裹<br>c. </strong></em>斜粗体<strong><em>, 用</em></strong>包裹  </li><li><del>删除线</del> 用~~包裹</li><li>引用 前面加上&lt;号</li><li>分割线 三个或以上的*号或者- </li></ol><hr><ol start="6"><li>图片 ![图片alt] (图片url”图片标题”)  </li><li>超链接 [超链接名] (超链接url”超链接标题”)</li></ol>]]></content>
+    <content type="html"><![CDATA[<h4 id="这是一篇介绍markdown基本语法的文章"><a href="#这是一篇介绍markdown基本语法的文章" class="headerlink" title="这是一篇介绍markdown基本语法的文章"></a>这是一篇介绍markdown基本语法的文章</h4><ol><li>标题 标题前加上#号, 共有六级标题  <a id="more"></a></li><li>字体<br>a. <em>斜体</em>, 用*包裹<br>b. <strong>粗体</strong>, 用**包裹<br>c. <strong><em>斜粗体</em></strong>, 用***包裹  </li><li><del>删除线</del> 用~~包裹</li><li>引用 前面加上&lt;号</li><li>分割线 三个或以上的*号或者- </li></ol><hr><ol start="6"><li>图片 ![图片alt] (图片url”图片标题”)  </li><li>超链接 [超链接名] (超链接url”超链接标题”)</li><li>无序列表 +-*中的任意一个</li></ol>]]></content>
     
     <summary type="html">
     
