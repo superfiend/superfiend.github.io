@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-21T16:44:35.217Z</updated>
+  <updated>2018-12-22T04:50:55.432Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,67 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>nmp安装错误</title>
+    <link href="http://yoursite.com/2018/12/22/nmp%E5%AE%89%E8%A3%85%E9%94%99%E8%AF%AF/"/>
+    <id>http://yoursite.com/2018/12/22/nmp安装错误/</id>
+    <published>2018-12-22T04:45:26.000Z</published>
+    <updated>2018-12-22T04:50:55.432Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="在npm安装插件的过程中-可能会出现某些问题-这里-提供了一点错误信息及其处理方案。"><a href="#在npm安装插件的过程中-可能会出现某些问题-这里-提供了一点错误信息及其处理方案。" class="headerlink" title="在npm安装插件的过程中, 可能会出现某些问题, 这里, 提供了一点错误信息及其处理方案。"></a>在npm安装插件的过程中, 可能会出现某些问题, 这里, 提供了一点错误信息及其处理方案。</h5><ol><li><p>npm install 的时候出现错误：npm ERR! Unexpected end of JSON input while parsing near ‘…”,”xxx’  </p><p>解决方案:  执行npm cache clean –force命令</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;在npm安装插件的过程中-可能会出现某些问题-这里-提供了一点错误信息及其处理方案。&quot;&gt;&lt;a href=&quot;#在npm安装插件的过程中-可能会出现某些问题-这里-提供了一点错误信息及其处理方案。&quot; class=&quot;headerlink&quot; title=&quot;在npm安装插件
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+      <category term="npm" scheme="http://yoursite.com/categories/hexo/npm/"/>
+    
+      <category term="错误相关" scheme="http://yoursite.com/categories/hexo/npm/%E9%94%99%E8%AF%AF%E7%9B%B8%E5%85%B3/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="npm" scheme="http://yoursite.com/tags/npm/"/>
+    
+      <category term="错误处理" scheme="http://yoursite.com/tags/%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>某些官方文档</title>
+    <link href="http://yoursite.com/2018/12/22/%E6%9F%90%E4%BA%9B%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/"/>
+    <id>http://yoursite.com/2018/12/22/某些官方文档/</id>
+    <published>2018-12-22T04:32:02.000Z</published>
+    <updated>2018-12-22T04:35:43.642Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="记录某些官方文档"><a href="#记录某些官方文档" class="headerlink" title="记录某些官方文档"></a>记录某些官方文档</h4><ol><li><a href="https://beautifulsoup.readthedocs.io/zh_CN/latest/" target="_blank" rel="noopener">BeautifulSoup4官方文档</a></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;记录某些官方文档&quot;&gt;&lt;a href=&quot;#记录某些官方文档&quot; class=&quot;headerlink&quot; title=&quot;记录某些官方文档&quot;&gt;&lt;/a&gt;记录某些官方文档&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://beautifulsoup.readthedo
+      
+    
+    </summary>
+    
+      <category term="官方文档" scheme="http://yoursite.com/categories/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/"/>
+    
+    
+      <category term="BeautifulSoup4" scheme="http://yoursite.com/tags/BeautifulSoup4/"/>
+    
+      <category term="文档" scheme="http://yoursite.com/tags/%E6%96%87%E6%A1%A3/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo安装rss插件</title>
@@ -91,28 +152,6 @@
     
     
       <category term="freemark" scheme="http://yoursite.com/tags/freemark/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>markdown流程图</title>
-    <link href="http://yoursite.com/2018/12/21/markdown%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
-    <id>http://yoursite.com/2018/12/21/markdown流程图/</id>
-    <published>2018-12-21T15:00:58.000Z</published>
-    <updated>2018-12-21T16:26:36.755Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="markdown" scheme="http://yoursite.com/categories/markdown/"/>
-    
-      <category term="流程图" scheme="http://yoursite.com/categories/markdown/%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
-    
-    
-      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
-    
-      <category term="流程图" scheme="http://yoursite.com/tags/%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
     
   </entry>
   
