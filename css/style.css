@@ -554,7 +554,7 @@ body {
 }
 .article-title {
   text-decoration: none;
-  font-size: 1.8em;
+  font-size: 1.7em;
   font-weight: bold;
   color: #555;
   line-height: 1.1em;
@@ -706,7 +706,7 @@ a.article-title:hover {
   text-shadow: 0 1px #1e7293;
 }
 .article-footer {
-  font-size: 0.85em;
+  font-size: 0.9em;
   line-height: 1.6em;
   border-top: 1px solid #ddd;
   padding-top: 1.6em;
@@ -827,7 +827,7 @@ a.article-title:hover {
   margin-right: -2px;
 }
 .article-nav-title {
-  font-size: 0.85em;
+  font-size: 0.9em;
   line-height: 1.6em;
   margin-top: 0.5em;
 }
@@ -957,7 +957,7 @@ a.article-title:hover {
   margin: 0 auto;
 }
 .article-entry {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-family: "楷体";
 }
 .article-title {
