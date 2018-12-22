@@ -104,7 +104,7 @@
     <link href="http://yoursite.com/2018/12/22/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%96%91%E6%83%91/"/>
     <id>http://yoursite.com/2018/12/22/数据结构疑惑/</id>
     <published>2018-12-22T06:18:16.000Z</published>
-    <updated>2018-12-22T08:03:49.903Z</updated>
+    <updated>2018-12-22T17:31:45.670Z</updated>
     
     <content type="html"><![CDATA[<h5 id="数据结构的概念真的让人头疼-总之-目前有疑惑的-都记录下来吧"><a href="#数据结构的概念真的让人头疼-总之-目前有疑惑的-都记录下来吧" class="headerlink" title="数据结构的概念真的让人头疼, 总之, 目前有疑惑的, 都记录下来吧"></a>数据结构的概念真的让人头疼, 总之, 目前有疑惑的, 都记录下来吧</h5><ol><li>假设二维数组M[1..3, 1..3]无论采用行优先还是列优先存储, 其基地址相同, 那么在两种存储方式下有相同地址的元素有<u>3</u>个。  </li><li>若Tail(L)非空, Tail(Tail(L))为空, 则非空广义表L的长度是<u>1</u>。(其中Tail表示取非空广义表的表尾)  </li><li>设输入序列为{20,11,12,…}, 构造一颗平衡二叉树, 当插入值为12的结点时发生了不平衡, 则应该进行的平衡旋转是<u>LR</u>。    </li></ol>]]></content>
     
@@ -272,40 +272,11 @@
   </entry>
   
   <entry>
-    <title>markdown流程图</title>
-    <link href="http://yoursite.com/2018/12/21/markdown%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
-    <id>http://yoursite.com/2018/12/21/markdown流程图/</id>
-    <published>2018-12-21T15:00:58.000Z</published>
-    <updated>2018-12-22T04:38:20.545Z</updated>
-    
-    <content type="html"><![CDATA[<p><code>​&lt;div id=&quot;flowchart-0&quot; class=&quot;flow-chart&quot;&gt;&lt;/div&gt;</code><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Starti=>inputoutput: 输入年份ncond1=>condition: n能否被4整除？cond2=>condition: n能否被100整除？cond3=>condition: n能否被400整除？o1=>inputoutput: 输出非闰年o2=>inputoutput: 输出非闰年o3=>inputoutput: 输出闰年o4=>inputoutput: 输出闰年e=>endst->i->cond1cond1(no)->o1->econd1(yes)->cond2cond2(no)->o3->econd2(yes)->cond3cond3(yes)->o2->econd3(no)->o4->e​</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;code&gt;​&amp;lt;div id=&amp;quot;flowchart-0&amp;quot; class=&amp;quot;flow-chart&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;script src=&quot;https://cdnjs.cloudflare.com/aj
-      
-    
-    </summary>
-    
-      <category term="markdown" scheme="http://yoursite.com/categories/markdown/"/>
-    
-      <category term="流程图" scheme="http://yoursite.com/categories/markdown/%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
-    
-    
-      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
-    
-      <category term="流程图" scheme="http://yoursite.com/tags/%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
-    
-  </entry>
-  
-  <entry>
     <title>书签记录</title>
     <link href="http://yoursite.com/2018/12/21/%E4%B9%A6%E7%AD%BE%E8%AE%B0%E5%BD%95/"/>
     <id>http://yoursite.com/2018/12/21/书签记录/</id>
     <published>2018-12-21T13:32:55.000Z</published>
-    <updated>2018-12-22T04:59:44.846Z</updated>
+    <updated>2018-12-22T17:32:12.020Z</updated>
     
     <content type="html"><![CDATA[<h4 id="记录某些暂时不用的方法的书签"><a href="#记录某些暂时不用的方法的书签" class="headerlink" title="记录某些暂时不用的方法的书签"></a>记录某些暂时不用的方法的书签</h4><hr><ol><li><a href="https://www.cnblogs.com/ShaYeBlog/p/7745930.html" target="_blank" rel="noopener">pycharm中某些对象没有代码提示</a>  </li><li><a href="https://www.jianshu.com/p/0b7347011e0a" target="_blank" rel="noopener">pycharm使用scrapy框架</a>  </li><li><a href="https://www.jianshu.com/p/49fcf033a2a3" target="_blank" rel="noopener">scrapy-CrawlSpider</a>  <a id="more"></a></li><li><a href="https://www.cnblogs.com/shhnwangjian/p/6117602.html" target="_blank" rel="noopener">python中time的转换</a></li></ol>]]></content>
     
@@ -319,7 +290,7 @@
     
     </summary>
     
-      <category term="书签记录" scheme="http://yoursite.com/categories/%E4%B9%A6%E7%AD%BE%E8%AE%B0%E5%BD%95/"/>
+      <category term="书签" scheme="http://yoursite.com/categories/%E4%B9%A6%E7%AD%BE/"/>
     
     
       <category term="书签" scheme="http://yoursite.com/tags/%E4%B9%A6%E7%AD%BE/"/>
@@ -358,7 +329,7 @@
     <link href="http://yoursite.com/2018/12/21/%E5%88%86%E7%B1%BB%E4%B8%8E%E6%A0%87%E7%AD%BE/"/>
     <id>http://yoursite.com/2018/12/21/分类与标签/</id>
     <published>2018-12-21T07:45:49.034Z</published>
-    <updated>2018-12-21T09:44:59.159Z</updated>
+    <updated>2018-12-22T17:29:39.495Z</updated>
     
     <content type="html"><![CDATA[<h4 id="新建分类"><a href="#新建分类" class="headerlink" title="新建分类"></a>新建分类</h4><hr><ol><li>新建分类页面 <a id="more"></a><br>hexo new page categories  </li><li>给分类页面添加类型<br>在source文件夹中的categories文件夹下找到index.md文件，并在它的头部加上type: “categories”。  </li><li>给模板添加分类属性<br>打开scarffolds文件夹里的post.md文件，给它的头部加上categories:。</li><li>给文章添加分类  </li><li>给文章添加多级分类的方法, 采用[], 如[ca1, ca2]</li></ol><h4 id="新建标签"><a href="#新建标签" class="headerlink" title="新建标签"></a>新建标签</h4><hr><ol><li>新建标签页面<br>hexo new page tags  </li><li>给标签页面添加类型<br>在source文件夹中的tags文件夹下找到index.md文件，并在它的头部加上type: “tags”。  </li><li>给文章添加标签  </li><li>给文章添加多个标签的方法<br>a. 直接采用[], 如[tag1, tag2]<br>b. 前面加_, 如_tag1, _tag2</li></ol><hr><p>ps: 新建分类与新建标签是类似的, 不过post.md文件自带了tag属性, 若没有, 需要自行添加。</p>]]></content>
     
