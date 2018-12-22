@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-22T12:33:55.504Z</updated>
+  <updated>2018-12-22T17:45:40.134Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,17 +17,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>http请求状态码</title>
+    <link href="http://yoursite.com/2018/12/23/http%E8%AF%B7%E6%B1%82%E7%8A%B6%E6%80%81%E7%A0%81/"/>
+    <id>http://yoursite.com/2018/12/23/http请求状态码/</id>
+    <published>2018-12-22T17:39:12.000Z</published>
+    <updated>2018-12-22T17:45:40.134Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="这篇文章主要记录http网络请求的一些状态码"><a href="#这篇文章主要记录http网络请求的一些状态码" class="headerlink" title="这篇文章主要记录http网络请求的一些状态码"></a>这篇文章主要记录http网络请求的一些状态码</h5><ol><li>200 -&gt; 请求成功 </li><li>403 -&gt; 服务器禁止请求  <a id="more"></a></li><li>404 -&gt; 访问网页不存在  </li><li>500 -&gt; 服务内部不可用</li><li>503 -&gt; 访问服务不可用  </li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;这篇文章主要记录http网络请求的一些状态码&quot;&gt;&lt;a href=&quot;#这篇文章主要记录http网络请求的一些状态码&quot; class=&quot;headerlink&quot; title=&quot;这篇文章主要记录http网络请求的一些状态码&quot;&gt;&lt;/a&gt;这篇文章主要记录http网络请求的一些状态码&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;200 -&amp;gt; 请求成功 &lt;/li&gt;
+&lt;li&gt;403 -&amp;gt; 服务器禁止请求
+    
+    </summary>
+    
+      <category term="http" scheme="http://yoursite.com/categories/http/"/>
+    
+    
+      <category term="http" scheme="http://yoursite.com/tags/http/"/>
+    
+  </entry>
+  
+  <entry>
     <title>想看的动漫系列</title>
     <link href="http://yoursite.com/2018/12/22/%E6%83%B3%E7%9C%8B%E7%9A%84%E5%8A%A8%E6%BC%AB%E7%B3%BB%E5%88%97/"/>
     <id>http://yoursite.com/2018/12/22/想看的动漫系列/</id>
     <published>2018-12-22T12:29:58.000Z</published>
-    <updated>2018-12-22T12:33:55.504Z</updated>
+    <updated>2018-12-22T17:35:55.994Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="这边文章记录了自己想看的动漫-其中有的看过一点-有的没有看过"><a href="#这边文章记录了自己想看的动漫-其中有的看过一点-有的没有看过" class="headerlink" title="这边文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过"></a>这边文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过</h5><ol><li>偶像大师灰姑娘女孩   </li><li>轻音少女  <a id="more"></a></li><li>taritari  </li><li>六心公主  </li><li>a频道  </li><li>佐贺偶像是传奇  </li><li>玉子爱情故事  </li><li>战姬绝唱   </li><li>寄宿学校的朱丽叶  </li><li>夏色奇迹</li></ol>]]></content>
+    <content type="html"><![CDATA[<h5 id="这篇文章记录了自己想看的动漫-其中有的看过一点-有的没有看过"><a href="#这篇文章记录了自己想看的动漫-其中有的看过一点-有的没有看过" class="headerlink" title="这篇文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过"></a>这篇文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过</h5><ol><li>偶像大师灰姑娘女孩   </li><li>轻音少女  <a id="more"></a></li><li>taritari  </li><li>六心公主  </li><li>a频道  </li><li>佐贺偶像是传奇  </li><li>玉子爱情故事  </li><li>战姬绝唱   </li><li>寄宿学校的朱丽叶  </li><li>夏色奇迹</li></ol>]]></content>
     
     <summary type="html">
     
-      &lt;h5 id=&quot;这边文章记录了自己想看的动漫-其中有的看过一点-有的没有看过&quot;&gt;&lt;a href=&quot;#这边文章记录了自己想看的动漫-其中有的看过一点-有的没有看过&quot; class=&quot;headerlink&quot; title=&quot;这边文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过&quot;&gt;&lt;/a&gt;这边文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过&lt;/h5&gt;&lt;ol&gt;
+      &lt;h5 id=&quot;这篇文章记录了自己想看的动漫-其中有的看过一点-有的没有看过&quot;&gt;&lt;a href=&quot;#这篇文章记录了自己想看的动漫-其中有的看过一点-有的没有看过&quot; class=&quot;headerlink&quot; title=&quot;这篇文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过&quot;&gt;&lt;/a&gt;这篇文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过&lt;/h5&gt;&lt;ol&gt;
 &lt;li&gt;偶像大师灰姑娘女孩   &lt;/li&gt;
 &lt;li&gt;轻音少女
     
@@ -45,17 +69,15 @@
     <link href="http://yoursite.com/2018/12/22/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%94%99%E9%A2%98/"/>
     <id>http://yoursite.com/2018/12/22/数据结构错题/</id>
     <published>2018-12-22T07:54:52.000Z</published>
-    <updated>2018-12-22T08:01:05.373Z</updated>
+    <updated>2018-12-22T17:51:09.171Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="这是关于数据结构的错题以及解析"><a href="#这是关于数据结构的错题以及解析" class="headerlink" title="这是关于数据结构的错题以及解析"></a>这是关于数据结构的错题以及解析</h5><ol><li><p>假设二维数组M[1..3, 1..3]无论采用行优先还是列优先存储, 其基地址相同, 那么在两种存储方式下有相同地址的元素有<u>3</u>个.  </p><p>错误分析: 没有明白题目给出的是3&times;3的矩阵。  </p></li><li><p>设输入序列为{20,11,12,…}, 构造一颗平衡二叉树, 当插入值为12的结点时发生了不平衡, 则应该进行的平衡旋转是<u>LR</u>。</p><p>错误分析: 不明白旋转的名词。</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<h5 id="这是关于数据结构的错题以及解析"><a href="#这是关于数据结构的错题以及解析" class="headerlink" title="这是关于数据结构的错题以及解析"></a>这是关于数据结构的错题以及解析</h5><ol><li><p>假设二维数组M[1..3, 1..3]无论采用行优先还是列优先存储, 其基地址相同, 那么在两种存储方式下有相同地址的元素有<u>3</u>个.  </p><p>错误分析: 没有明白题目给出的是3&times;3的矩阵。  <a id="more"></a></p></li><li><p>设输入序列为{20,11,12,…}, 构造一颗平衡二叉树, 当插入值为12的结点时发生了不平衡, 则应该进行的平衡旋转是<u>LR</u>。</p><p>错误分析: 不明白旋转的名词。</p></li></ol>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h5 id=&quot;这是关于数据结构的错题以及解析&quot;&gt;&lt;a href=&quot;#这是关于数据结构的错题以及解析&quot; class=&quot;headerlink&quot; title=&quot;这是关于数据结构的错题以及解析&quot;&gt;&lt;/a&gt;这是关于数据结构的错题以及解析&lt;/h5&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;假设二维数组M[1
-      
+      &lt;h5 id=&quot;这是关于数据结构的错题以及解析&quot;&gt;&lt;a href=&quot;#这是关于数据结构的错题以及解析&quot; class=&quot;headerlink&quot; title=&quot;这是关于数据结构的错题以及解析&quot;&gt;&lt;/a&gt;这是关于数据结构的错题以及解析&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;假设二维数组M[1..3, 1..3]无论采用行优先还是列优先存储, 其基地址相同, 那么在两种存储方式下有相同地址的元素有&lt;u&gt;3&lt;/u&gt;个.  &lt;/p&gt;
+&lt;p&gt;错误分析: 没有明白题目给出的是3&amp;times;3的矩阵。
     
     </summary>
     
@@ -129,11 +151,11 @@
   </entry>
   
   <entry>
-    <title>nmp安装错误</title>
+    <title>npm安装错误</title>
     <link href="http://yoursite.com/2018/12/22/nmp%E5%AE%89%E8%A3%85%E9%94%99%E8%AF%AF/"/>
     <id>http://yoursite.com/2018/12/22/nmp安装错误/</id>
     <published>2018-12-22T04:45:26.000Z</published>
-    <updated>2018-12-22T04:50:55.432Z</updated>
+    <updated>2018-12-22T17:34:27.517Z</updated>
     
     <content type="html"><![CDATA[<h5 id="在npm安装插件的过程中-可能会出现某些问题-这里-提供了一点错误信息及其处理方案。"><a href="#在npm安装插件的过程中-可能会出现某些问题-这里-提供了一点错误信息及其处理方案。" class="headerlink" title="在npm安装插件的过程中, 可能会出现某些问题, 这里, 提供了一点错误信息及其处理方案。"></a>在npm安装插件的过程中, 可能会出现某些问题, 这里, 提供了一点错误信息及其处理方案。</h5><ol><li><p>npm install 的时候出现错误：npm ERR! Unexpected end of JSON input while parsing near ‘…”,”xxx’  </p><p>解决方案:  执行npm cache clean –force命令</p></li></ol>]]></content>
     

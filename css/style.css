@@ -691,7 +691,7 @@ a.article-title:hover {
 }
 .article-more-link a {
   display: inline-block;
-  line-height: 1em;
+  line-height: 0.5em;
   padding: 6px 15px;
   border-radius: 15px;
   background: #eee;
