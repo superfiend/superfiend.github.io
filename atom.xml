@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-22T08:01:05.373Z</updated>
+  <updated>2018-12-22T13:35:12.015Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>流程图</title>
+    <link href="http://yoursite.com/2018/12/22/%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
+    <id>http://yoursite.com/2018/12/22/流程图/</id>
+    <published>2018-12-22T12:41:45.000Z</published>
+    <updated>2018-12-22T13:35:12.015Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>`</code><br>​<div id="flowchart-0" class="flow-chart"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Startop=>operation: Your Operationcond=>condition: Yes or No?io=>inputoutput: catch something...e=>end: Endst->op->condcond(yes)->io->econd(no)->op->op​```</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;code&gt;`&lt;/code&gt;&lt;br&gt;​&lt;div id=&quot;flowchart-0&quot; class=&quot;flow-chart&quot;&gt;&lt;/div&gt;&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/rapha
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>想看的动漫系列</title>
+    <link href="http://yoursite.com/2018/12/22/%E6%83%B3%E7%9C%8B%E7%9A%84%E5%8A%A8%E6%BC%AB%E7%B3%BB%E5%88%97/"/>
+    <id>http://yoursite.com/2018/12/22/想看的动漫系列/</id>
+    <published>2018-12-22T12:29:58.000Z</published>
+    <updated>2018-12-22T12:33:55.504Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="这边文章记录了自己想看的动漫-其中有的看过一点-有的没有看过"><a href="#这边文章记录了自己想看的动漫-其中有的看过一点-有的没有看过" class="headerlink" title="这边文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过"></a>这边文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过</h5><ol><li>偶像大师灰姑娘女孩   </li><li>轻音少女  <a id="more"></a></li><li>taritari  </li><li>六心公主  </li><li>a频道  </li><li>佐贺偶像是传奇  </li><li>玉子爱情故事  </li><li>战姬绝唱   </li><li>寄宿学校的朱丽叶  </li><li>夏色奇迹</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;这边文章记录了自己想看的动漫-其中有的看过一点-有的没有看过&quot;&gt;&lt;a href=&quot;#这边文章记录了自己想看的动漫-其中有的看过一点-有的没有看过&quot; class=&quot;headerlink&quot; title=&quot;这边文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过&quot;&gt;&lt;/a&gt;这边文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;偶像大师灰姑娘女孩   &lt;/li&gt;
+&lt;li&gt;轻音少女
+    
+    </summary>
+    
+      <category term="动漫" scheme="http://yoursite.com/categories/%E5%8A%A8%E6%BC%AB/"/>
+    
+    
+      <category term="动漫" scheme="http://yoursite.com/tags/%E5%8A%A8%E6%BC%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>数据结构错题</title>
@@ -51,9 +96,9 @@
     <link href="http://yoursite.com/2018/12/22/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%A6%82%E5%BF%B5/"/>
     <id>http://yoursite.com/2018/12/22/数据结构概念/</id>
     <published>2018-12-22T06:51:38.000Z</published>
-    <updated>2018-12-22T08:04:23.977Z</updated>
+    <updated>2018-12-22T09:07:49.198Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="这里是数据结构中的一些概念-考试时可能会出现"><a href="#这里是数据结构中的一些概念-考试时可能会出现" class="headerlink" title="这里是数据结构中的一些概念, 考试时可能会出现"></a>这里是数据结构中的一些概念, 考试时可能会出现</h5><ol><li>拓扑排序<u>包含了有向图的全部顶点</u>, <u>有向有环图一定没有拓扑排序</u>, <u>有向无环图一定有拓扑排序</u>, <u>拓扑序列不一定唯一</u>。 </li><li>最小生成树是指<u>连通网中所有生成树中权值之和为最小的生成树</u>。</li></ol>]]></content>
+    <content type="html"><![CDATA[<h5 id="这里是数据结构中的一些概念-考试时可能会出现"><a href="#这里是数据结构中的一些概念-考试时可能会出现" class="headerlink" title="这里是数据结构中的一些概念, 考试时可能会出现"></a>这里是数据结构中的一些概念, 考试时可能会出现</h5><ol><li>拓扑排序<u>包含了有向图的全部顶点</u>, <u>有向有环图一定没有拓扑排序</u>, <u>有向无环图一定有拓扑排序</u>, <u>拓扑序列不一定唯一</u>。 </li><li>最小生成树是指<u>连通网中所有生成树中权值之和为最小的生成树</u>。</li><li>AOX-E网在正常情况(无环)下, 入度为零的点叫做<strong>源点</strong>, 出度为零的点叫做<strong>汇点</strong>, 路径最长的路径叫做<strong>关键路径</strong>。</li></ol>]]></content>
     
     <summary type="html">
     
@@ -142,9 +187,9 @@
     <link href="http://yoursite.com/2018/12/22/%E6%9F%90%E4%BA%9B%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/"/>
     <id>http://yoursite.com/2018/12/22/某些官方文档/</id>
     <published>2018-12-22T04:32:02.000Z</published>
-    <updated>2018-12-22T04:58:55.538Z</updated>
+    <updated>2018-12-22T12:28:59.126Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="记录某些官方文档"><a href="#记录某些官方文档" class="headerlink" title="记录某些官方文档"></a>记录某些官方文档</h4><ol><li><a href="https://beautifulsoup.readthedocs.io/zh_CN/latest/" target="_blank" rel="noopener">BeautifulSoup4官方文档</a></li></ol>]]></content>
+    <content type="html"><![CDATA[<h4 id="记录某些官方文档"><a href="#记录某些官方文档" class="headerlink" title="记录某些官方文档"></a>记录某些官方文档</h4><ol><li><a href="https://beautifulsoup.readthedocs.io/zh_CN/latest/" target="_blank" rel="noopener">BeautifulSoup4官方文档</a>  </li><li><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">hexo-next主题官方文档</a></li></ol>]]></content>
     
     <summary type="html">
     
@@ -158,6 +203,8 @@
     
       <category term="官方文档" scheme="http://yoursite.com/categories/%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/"/>
     
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
@@ -242,6 +289,35 @@
     
     
       <category term="freemark" scheme="http://yoursite.com/tags/freemark/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>markdown流程图</title>
+    <link href="http://yoursite.com/2018/12/21/markdown%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
+    <id>http://yoursite.com/2018/12/21/markdown流程图/</id>
+    <published>2018-12-21T15:00:58.000Z</published>
+    <updated>2018-12-22T04:38:20.545Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>​&lt;div id=&quot;flowchart-0&quot; class=&quot;flow-chart&quot;&gt;&lt;/div&gt;</code><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: Starti=>inputoutput: 输入年份ncond1=>condition: n能否被4整除？cond2=>condition: n能否被100整除？cond3=>condition: n能否被400整除？o1=>inputoutput: 输出非闰年o2=>inputoutput: 输出非闰年o3=>inputoutput: 输出闰年o4=>inputoutput: 输出闰年e=>endst->i->cond1cond1(no)->o1->econd1(yes)->cond2cond2(no)->o3->econd2(yes)->cond3cond3(yes)->o2->econd3(no)->o4->e​</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;code&gt;​&amp;lt;div id=&amp;quot;flowchart-0&amp;quot; class=&amp;quot;flow-chart&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;script src=&quot;https://cdnjs.cloudflare.com/aj
+      
+    
+    </summary>
+    
+      <category term="markdown" scheme="http://yoursite.com/categories/markdown/"/>
+    
+      <category term="流程图" scheme="http://yoursite.com/categories/markdown/%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
+    
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+      <category term="流程图" scheme="http://yoursite.com/tags/%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
     
   </entry>
   
