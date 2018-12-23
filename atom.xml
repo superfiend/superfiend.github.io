@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-22T17:45:40.134Z</updated>
+  <updated>2018-12-23T10:10:02.951Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pyecharts基础</title>
+    <link href="http://yoursite.com/2018/12/23/pyecharts%E5%9F%BA%E7%A1%80/"/>
+    <id>http://yoursite.com/2018/12/23/pyecharts基础/</id>
+    <published>2018-12-23T10:05:56.000Z</published>
+    <updated>2018-12-23T10:10:02.951Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="这篇介绍的是pyecharts基础语法"><a href="#这篇介绍的是pyecharts基础语法" class="headerlink" title="这篇介绍的是pyecharts基础语法"></a>这篇介绍的是pyecharts基础语法</h5><p><strong>pyecharts 简单介绍</strong></p><p>柱状图(Bar), 饼状图(Pie), 线性图(Line) <a id="more"></a><br>from pyecharts import Bar<br>bar = Bar(‘标题’, ‘副标题’)<br>bar.add(‘数据名’, ‘属性名列表’  ‘属性值列表’, is_more_utils=True, mark_line=[‘average’], mark_point=[‘max’, ‘min’], is_label_show=True)<br>bar.render([保存路径]) </p><p><mark>ps: Pie, Line用法与bar一样</mark></p><p><strong>设置主题</strong><br>bar.use_theme(主题名)</p><p><strong>生成多个图表 推荐使用一下方式</strong><br>from pyecharts.engine import create_default_environment</p><p>env = create_default_environment(“html”)<br># 为渲染创建一个默认配置环境<br># create_default_environment(filet_ype)<br># file_type: ‘html’, ‘svg’, ‘png’, ‘jpeg’, ‘gif’ or ‘pdf’</p><p>env.render_chart_to_file(bar, path=’bar.html’)<br>env.render_chart_to_file(line, path=’line.html’)</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;这篇介绍的是pyecharts基础语法&quot;&gt;&lt;a href=&quot;#这篇介绍的是pyecharts基础语法&quot; class=&quot;headerlink&quot; title=&quot;这篇介绍的是pyecharts基础语法&quot;&gt;&lt;/a&gt;这篇介绍的是pyecharts基础语法&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;pyecharts 简单介绍&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;柱状图(Bar), 饼状图(Pie), 线性图(Line)
+    
+    </summary>
+    
+      <category term="python" scheme="http://yoursite.com/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="pyecharts" scheme="http://yoursite.com/tags/pyecharts/"/>
+    
+  </entry>
   
   <entry>
     <title>http请求状态码</title>
@@ -84,9 +109,9 @@
       <category term="数据结构" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     
-      <category term="考试" scheme="http://yoursite.com/tags/%E8%80%83%E8%AF%95/"/>
-    
       <category term="数据结构" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="考试" scheme="http://yoursite.com/tags/%E8%80%83%E8%AF%95/"/>
     
       <category term="错题" scheme="http://yoursite.com/tags/%E9%94%99%E9%A2%98/"/>
     
@@ -113,11 +138,11 @@
       <category term="数据结构" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     
-      <category term="概念" scheme="http://yoursite.com/tags/%E6%A6%82%E5%BF%B5/"/>
+      <category term="数据结构" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
       <category term="考试" scheme="http://yoursite.com/tags/%E8%80%83%E8%AF%95/"/>
     
-      <category term="数据结构" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+      <category term="概念" scheme="http://yoursite.com/tags/%E6%A6%82%E5%BF%B5/"/>
     
   </entry>
   
@@ -142,9 +167,9 @@
       <category term="数据结构" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     
-      <category term="考试" scheme="http://yoursite.com/tags/%E8%80%83%E8%AF%95/"/>
-    
       <category term="数据结构" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="考试" scheme="http://yoursite.com/tags/%E8%80%83%E8%AF%95/"/>
     
       <category term="问题集" scheme="http://yoursite.com/tags/%E9%97%AE%E9%A2%98%E9%9B%86/"/>
     
@@ -315,9 +340,9 @@
       <category term="书签" scheme="http://yoursite.com/categories/%E4%B9%A6%E7%AD%BE/"/>
     
     
-      <category term="书签" scheme="http://yoursite.com/tags/%E4%B9%A6%E7%AD%BE/"/>
-    
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="书签" scheme="http://yoursite.com/tags/%E4%B9%A6%E7%AD%BE/"/>
     
   </entry>
   
@@ -340,9 +365,9 @@
       <category term="数据结构" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     
-      <category term="概念" scheme="http://yoursite.com/tags/%E6%A6%82%E5%BF%B5/"/>
-    
       <category term="考试" scheme="http://yoursite.com/tags/%E8%80%83%E8%AF%95/"/>
+    
+      <category term="概念" scheme="http://yoursite.com/tags/%E6%A6%82%E5%BF%B5/"/>
     
   </entry>
   
@@ -422,11 +447,11 @@
   </entry>
   
   <entry>
-    <title>置顶-数据结构</title>
+    <title>数据结构</title>
     <link href="http://yoursite.com/2018/12/20/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     <id>http://yoursite.com/2018/12/20/数据结构/</id>
     <published>2018-12-20T10:10:09.105Z</published>
-    <updated>2018-12-22T08:14:16.326Z</updated>
+    <updated>2018-12-23T10:11:08.240Z</updated>
     
     <content type="html"><![CDATA[<p>过几天就要进行数据结构的考试了。 所以, 现在就要开始进行数据结构的复习了, 为了便于考前再度复习, 以及加深自己的理解, 因此一边复习, 一边记录复习的内容。  </p><p>一. 填空题  </p><ol><li>一个n&times;n的对称矩阵, 如果以行或列为主序压缩存放入内存, 则需要<u>n&times;(n+1)/2</u>个存储单元。<a id="more"></a></li><li>若用一个长度为6的数组来实现循环队列, 且当前rear和front的值分别为0和3,  则从队列中删除一个元素, 在增加两个元素后, rear和front的值分别为<u>2</u>和<u>4</u>。</li><li>在长度为n的线性表中查找值为x的元素的时间复杂度为<u>O(n)</u>。</li><li>深度为k的二叉树最多有<u>2</u><sup>k</sup><u>-1</u>个节点, 最少有<u>k</u>个节点。  </li><li>用顺序查找法在长度为n的线性表中进行查找, 在等概率情况下, 查找成功的平均比较次数是<u>(n+1)/2</u>。  </li><li>图的广度优先遍历算法中用到的辅助队列, 每个顶点最多进队<u>1</u>次。  </li><li>在表达式”4-6/3+(7-3*2-5……”求值的过程中, 处理5时刻的操作数栈的内容为<u>2, 1, 5</u>, 运算符栈的内容为<u>+ ( -</u>。</li><li>在有n个叶子节点的哈夫曼树中, 总结点数是<u>2&times;n-1</u>。</li><li>对n个元素进行归并排序, 需要的辅助空间为<u>n</u>。</li><li>对一个顺序栈或队列, 插入或删除元素的时间复杂度为<u>O(1)</u>。</li><li>在一个具有n个顶点的有向完全图中包含有<u>n&times;(n-1)</u>条边。</li></ol><p><mark>ps: ? 代表有疑惑, 然后就是读题一定要仔细, 避免惯性思维, 我在一开始就把2题中的rear和front的意义弄反了,还把11题的有向看成了无向, 呜呜~~</mark></p><p>二. 概念(选择题改编)  </p><ol><li>给单链表加上头结点的主要原因是<u>简化算法</u>。  </li><li>顺序表和链表比较, <u>插入与删除的时间效率</u>不是顺序表的优势。  </li><li>关于栈和队列, <u>队列非常适合于表达式求值的算符优先法</u>说法不妥。  </li><li>建立线索二叉树的目的是<u>方便查找某节点的前驱或后继</u>。</li></ol>]]></content>
     
@@ -442,11 +467,9 @@
       <category term="数据结构" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
     
-      <category term="考试" scheme="http://yoursite.com/tags/%E8%80%83%E8%AF%95/"/>
-    
       <category term="数据结构" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-      <category term="置顶" scheme="http://yoursite.com/tags/%E7%BD%AE%E9%A1%B6/"/>
+      <category term="考试" scheme="http://yoursite.com/tags/%E8%80%83%E8%AF%95/"/>
     
   </entry>
   

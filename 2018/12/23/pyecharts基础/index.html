@@ -5,15 +5,20 @@
   
 
   
-  <title>Tag: 数据结构 | SuperFiend -- 大魔王驾到</title>
+  <title>pyecharts基础 | SuperFiend -- 大魔王驾到</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="SuperFiend -- 大魔王驾到">
-<meta property="og:url" content="http://yoursite.com/tags/数据结构/index.html">
+  <meta name="description" content="这篇介绍的是pyecharts基础语法pyecharts 简单介绍 柱状图(Bar), 饼状图(Pie), 线性图(Line)">
+<meta name="keywords" content="python,pyecharts">
+<meta property="og:type" content="article">
+<meta property="og:title" content="pyecharts基础">
+<meta property="og:url" content="http://yoursite.com/2018/12/23/pyecharts基础/index.html">
 <meta property="og:site_name" content="SuperFiend -- 大魔王驾到">
+<meta property="og:description" content="这篇介绍的是pyecharts基础语法pyecharts 简单介绍 柱状图(Bar), 饼状图(Pie), 线性图(Line)">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-12-23T10:10:02.951Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SuperFiend -- 大魔王驾到">
+<meta name="twitter:title" content="pyecharts基础">
+<meta name="twitter:description" content="这篇介绍的是pyecharts基础语法pyecharts 简单介绍 柱状图(Bar), 饼状图(Pie), 线性图(Line)">
   
     <link rel="alternate" href="/atom.xml" title="SuperFiend -- 大魔王驾到" type="application/atom+xml">
   
@@ -60,97 +65,64 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/12/22/数据结构错题/" class="archive-article-date">
-  <time datetime="2018-12-22T07:54:52.000Z" itemprop="datePublished">Dec 22</time>
+        <section id="main"><article id="post-pyecharts基础" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/12/23/pyecharts基础/" class="article-date">
+  <time datetime="2018-12-23T10:05:56.000Z" itemprop="datePublished">2018-12-23</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/python/">python</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/12/22/数据结构错题/">数据结构错题</a>
+    <h1 class="article-title" itemprop="name">
+      pyecharts基础
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/12/22/数据结构概念/" class="archive-article-date">
-  <time datetime="2018-12-22T06:51:38.000Z" itemprop="datePublished">Dec 22</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/12/22/数据结构概念/">数据结构概念</a>
-    </h1>
-  
+        <h5 id="这篇介绍的是pyecharts基础语法"><a href="#这篇介绍的是pyecharts基础语法" class="headerlink" title="这篇介绍的是pyecharts基础语法"></a>这篇介绍的是pyecharts基础语法</h5><p><strong>pyecharts 简单介绍</strong></p>
+<p>柱状图(Bar), 饼状图(Pie), 线性图(Line) <a id="more"></a><br>from pyecharts import Bar<br>bar = Bar(‘标题’, ‘副标题’)<br>bar.add(‘数据名’, ‘属性名列表’  ‘属性值列表’, is_more_utils=True, mark_line=[‘average’], mark_point=[‘max’, ‘min’], is_label_show=True)<br>bar.render([保存路径]) </p>
+<p><mark>ps: Pie, Line用法与bar一样</mark></p>
+<p><strong>设置主题</strong><br>bar.use_theme(主题名)</p>
+<p><strong>生成多个图表 推荐使用一下方式</strong><br>from pyecharts.engine import create_default_environment</p>
+<p>env = create_default_environment(“html”)<br># 为渲染创建一个默认配置环境<br># create_default_environment(filet_ype)<br># file_type: ‘html’, ‘svg’, ‘png’, ‘jpeg’, ‘gif’ or ‘pdf’</p>
+<p>env.render_chart_to_file(bar, path=’bar.html’)<br>env.render_chart_to_file(line, path=’line.html’)</p>
 
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/12/22/数据结构疑惑/" class="archive-article-date">
-  <time datetime="2018-12-22T06:18:16.000Z" itemprop="datePublished">Dec 22</time>
-</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/12/22/数据结构疑惑/">数据结构疑惑</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2018/12/20/数据结构/" class="archive-article-date">
-  <time datetime="2018-12-20T10:10:09.105Z" itemprop="datePublished">Dec 20</time>
-</a>
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/12/23/pyecharts基础/" data-id="cjq0qggoe000jwcdawqxywzi2" class="article-share-link">Share</a>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/12/20/数据结构/">数据结构</a>
-    </h1>
-  
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/pyecharts/">pyecharts</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
 
-    </header>
+    </footer>
   </div>
-</article>
+  
+    
+<nav id="article-nav">
   
   
-    </div></section>
+    <a href="/2018/12/23/http请求状态码/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">http请求状态码</div>
+    </a>
   
+</nav>
 
+  
+</article>
 
 </section>
         
