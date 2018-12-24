@@ -5,20 +5,20 @@
   
 
   
-  <title>分类与标签(landscape) | SuperFiend -- 大魔王驾到</title>
+  <title>hexo新章 | SuperFiend -- 大魔王驾到</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="新建分类  新建分类页面">
-<meta name="keywords" content="页面">
+  <meta name="description" content="考虑到简洁性, 于是决定将hexo相关的方法整合在这一篇文章中 安装rss插件       a. 进入blog目录, 执行npm install hexo-generator-feed">
+<meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="分类与标签(landscape)">
-<meta property="og:url" content="http://yoursite.com/2018/12/21/分类与标签/index.html">
+<meta property="og:title" content="hexo新章">
+<meta property="og:url" content="http://yoursite.com/2018/12/24/hexo新章/index.html">
 <meta property="og:site_name" content="SuperFiend -- 大魔王驾到">
-<meta property="og:description" content="新建分类  新建分类页面">
+<meta property="og:description" content="考虑到简洁性, 于是决定将hexo相关的方法整合在这一篇文章中 安装rss插件       a. 进入blog目录, 执行npm install hexo-generator-feed">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-12-22T17:29:39.495Z">
+<meta property="og:updated_time" content="2018-12-24T13:02:23.735Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="分类与标签(landscape)">
-<meta name="twitter:description" content="新建分类  新建分类页面">
+<meta name="twitter:title" content="hexo新章">
+<meta name="twitter:description" content="考虑到简洁性, 于是决定将hexo相关的方法整合在这一篇文章中 安装rss插件       a. 进入blog目录, 执行npm install hexo-generator-feed">
   
     <link rel="alternate" href="/atom.xml" title="SuperFiend -- 大魔王驾到" type="application/atom+xml">
   
@@ -65,14 +65,14 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-分类与标签" class="article article-type-post" itemscope="" itemprop="blogPost">
+        <section id="main"><article id="post-hexo新章" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/12/21/分类与标签/" class="article-date">
-  <time datetime="2018-12-21T07:45:49.034Z" itemprop="datePublished">2018-12-21</time>
+    <a href="/2018/12/24/hexo新章/" class="article-date">
+  <time datetime="2018-12-24T12:54:24.000Z" itemprop="datePublished">2018-12-24</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/categories/博客相关/">博客相关</a>
+    <a class="article-category-link" href="/categories/hexo/">hexo</a>
   </div>
 
   </div>
@@ -83,7 +83,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      分类与标签(landscape)
+      hexo新章
     </h1>
   
 
@@ -91,31 +91,26 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h4 id="新建分类"><a href="#新建分类" class="headerlink" title="新建分类"></a>新建分类</h4><hr>
-<ol>
-<li>新建分类页面 <a id="more"></a><br>hexo new page categories  </li>
-<li>给分类页面添加类型<br>在source文件夹中的categories文件夹下找到index.md文件，并在它的头部加上type: “categories”。  </li>
-<li>给模板添加分类属性<br>打开scarffolds文件夹里的post.md文件，给它的头部加上categories:。</li>
-<li>给文章添加分类  </li>
-<li>给文章添加多级分类的方法, 采用[], 如[ca1, ca2]</li>
+        <h5 id="考虑到简洁性-于是决定将hexo相关的方法整合在这一篇文章中"><a href="#考虑到简洁性-于是决定将hexo相关的方法整合在这一篇文章中" class="headerlink" title="考虑到简洁性, 于是决定将hexo相关的方法整合在这一篇文章中"></a>考虑到简洁性, 于是决定将hexo相关的方法整合在这一篇文章中</h5><ol>
+<li><p>安装rss插件      </p>
+<p>a. 进入blog目录, 执行npm install hexo-generator-feed  <a id="more"></a></p>
+<p>b. 在根目录下的_config.yml文件中，添加以下配置<br>#RSS订阅<br>plugin:<br>- hexo-generator-feed<br>feed:<br>type: atom<br>path: atom.xml<br>limit: 20  </p>
+<p>c. 在主题目录下的_config.yml目录下，添加如下配置<br>rss: /atom.xml</p>
+</li>
+<li><p>文章置顶  </p>
+<p>a. $ npm uninstall hexo-generator-index –save  </p>
+<p>b. $ npm install hexo-generator-index-pin-top –save</p>
+<p>c. 在需要置顶的文章的头部信息中添加: top: true</p>
+</li>
 </ol>
-<h4 id="新建标签"><a href="#新建标签" class="headerlink" title="新建标签"></a>新建标签</h4><hr>
-<ol>
-<li>新建标签页面<br>hexo new page tags  </li>
-<li>给标签页面添加类型<br>在source文件夹中的tags文件夹下找到index.md文件，并在它的头部加上type: “tags”。  </li>
-<li>给文章添加标签  </li>
-<li>给文章添加多个标签的方法<br>a. 直接采用[], 如[tag1, tag2]<br>b. 前面加_, 如_tag1, _tag2</li>
-</ol>
-<hr>
-<p>ps: 新建分类与新建标签是类似的, 不过post.md文件自带了tag属性, 若没有, 需要自行添加。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/12/21/分类与标签/" data-id="cjq2c3uro000hasdaobygyl3f" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/12/24/hexo新章/" data-id="cjq2c3uqq0000asdaxurpviqx" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/页面/">页面</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
 
     </footer>
   </div>
@@ -123,19 +118,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2018/12/21/书签记录/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          书签记录
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/12/20/notes/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2018/12/24/数据结构新章/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">写文章时遇到的一点问题以及解决方案</div>
+      <div class="article-nav-title">数据结构新章</div>
     </a>
   
 </nav>
