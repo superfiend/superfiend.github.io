@@ -41,33 +41,6 @@
   </entry>
   
   <entry>
-    <title>数据结构新章</title>
-    <link href="http://yoursite.com/2018/12/24/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%96%B0%E7%AB%A0/"/>
-    <id>http://yoursite.com/2018/12/24/数据结构新章/</id>
-    <published>2018-12-24T11:55:43.000Z</published>
-    <updated>2018-12-24T12:31:29.874Z</updated>
-    
-    <content type="html"><![CDATA[<p>数据结构的考试今天完美的落幕了, 虽然还是有些遗憾, 但是总体上还是比较让人满意的。简单总是让人感到愉悦, 因此, 决定下架以前与数据结构有关的博文, 并把新的总结记载在本篇文章。  </p><ol><li><h5 id="数据结构中的某些概念"><a href="#数据结构中的某些概念" class="headerlink" title="数据结构中的某些概念"></a>数据结构中的某些概念</h5><ol><li>拓扑排序<u><strong>包含了有向图的全部顶点</strong></u><strong>, <u>有向有环图一定没有拓扑排序</u></strong>, <strong><u>有向无环图一定有拓扑排序</u></strong>, <u><strong>拓扑序列不一定唯一</strong></u>。 </li><li>最小生成树是指<u><strong>连通网中所有生成树中权值之和为最小的生成树</strong></u>。</li><li>AOX-E网在正常情况(无环)下, 入度为零的点叫做<u><strong>源点</strong></u>, 出度为零的点叫做<u><strong>汇点</strong></u>, 路径最长的路径叫做<u><strong>关键路径</strong></u>。   <a id="more"></a></li></ol><h5 id="2-数据结构广义表"><a href="#2-数据结构广义表" class="headerlink" title="2. 数据结构广义表"></a>2. 数据结构广义表</h5><ol><li>定义: 线性表的推广, 表中元素可以为表</li><li>head: 表中的第一个元素。</li><li>tail: 表中head以外的其它元素构成的表。</li><li>长度: 表中元素的个数。</li><li>深度: 表中括号嵌套最深的层数。</li></ol></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;数据结构的考试今天完美的落幕了, 虽然还是有些遗憾, 但是总体上还是比较让人满意的。简单总是让人感到愉悦, 因此, 决定下架以前与数据结构有关的博文, 并把新的总结记载在本篇文章。  &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;h5 id=&quot;数据结构中的某些概念&quot;&gt;&lt;a href=&quot;#数据结构中的某些概念&quot; class=&quot;headerlink&quot; title=&quot;数据结构中的某些概念&quot;&gt;&lt;/a&gt;数据结构中的某些概念&lt;/h5&gt;&lt;ol&gt;
-&lt;li&gt;拓扑排序&lt;u&gt;&lt;strong&gt;包含了有向图的全部顶点&lt;/strong&gt;&lt;/u&gt;&lt;strong&gt;, &lt;u&gt;有向有环图一定没有拓扑排序&lt;/u&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;u&gt;有向无环图一定有拓扑排序&lt;/u&gt;&lt;/strong&gt;, &lt;u&gt;&lt;strong&gt;拓扑序列不一定唯一&lt;/strong&gt;&lt;/u&gt;。 &lt;/li&gt;
-&lt;li&gt;最小生成树是指&lt;u&gt;&lt;strong&gt;连通网中所有生成树中权值之和为最小的生成树&lt;/strong&gt;&lt;/u&gt;。&lt;/li&gt;
-&lt;li&gt;AOX-E网在正常情况(无环)下, 入度为零的点叫做&lt;u&gt;&lt;strong&gt;源点&lt;/strong&gt;&lt;/u&gt;, 出度为零的点叫做&lt;u&gt;&lt;strong&gt;汇点&lt;/strong&gt;&lt;/u&gt;, 路径最长的路径叫做&lt;u&gt;&lt;strong&gt;关键路径&lt;/strong&gt;&lt;/u&gt;。
-    
-    </summary>
-    
-      <category term="数据结构" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-    
-      <category term="数据结构" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    
-  </entry>
-  
-  <entry>
     <title>pyecharts基础</title>
     <link href="http://yoursite.com/2018/12/23/pyecharts%E5%9F%BA%E7%A1%80/"/>
     <id>http://yoursite.com/2018/12/23/pyecharts基础/</id>
@@ -282,9 +255,9 @@
       <category term="书签" scheme="http://yoursite.com/categories/%E4%B9%A6%E7%AD%BE/"/>
     
     
-      <category term="书签" scheme="http://yoursite.com/tags/%E4%B9%A6%E7%AD%BE/"/>
-    
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="书签" scheme="http://yoursite.com/tags/%E4%B9%A6%E7%AD%BE/"/>
     
   </entry>
   
