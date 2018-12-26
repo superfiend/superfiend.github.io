@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-24T13:02:23.735Z</updated>
+  <updated>2018-12-26T14:50:10.058Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>tkinter基础</title>
+    <link href="http://yoursite.com/2018/12/26/tkinter%E5%9F%BA%E7%A1%80/"/>
+    <id>http://yoursite.com/2018/12/26/tkinter基础/</id>
+    <published>2018-12-26T14:39:38.000Z</published>
+    <updated>2018-12-26T14:50:10.058Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天学习了tkinter, 本来不想要记录下来的, 但是, 想到时间永远是记忆最大的敌人, 还是记录下来好了。</p><ol><li><p>窗口对象 Tk -&gt; tk = Tk()</p></li><li><p>窗口开始 tk.mainloop()<a id="more"></a></p></li><li><p>窗口组件   </p><p>a. Button -&gt; btn = Button(text=’button’) # 按钮</p><p>b. Label -&gt; lbl = Label(text=’label’) # 标签</p><p>c. Entry -&gt; ent = Entry() # 文本输入框</p><p>d. more…</p></li><li><p>窗口退出 tk.quit()</p></li><li><p>添加组件</p><p>a. pack()</p><p>b. grid(row=?, column=?)</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天学习了tkinter, 本来不想要记录下来的, 但是, 想到时间永远是记忆最大的敌人, 还是记录下来好了。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;窗口对象 Tk -&amp;gt; tk = Tk()&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;窗口开始 tk.mainloop()
+    
+    </summary>
+    
+      <category term="python" scheme="http://yoursite.com/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="tkinter" scheme="http://yoursite.com/tags/tkinter/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo新章</title>
