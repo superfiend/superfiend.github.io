@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-26T16:10:46.250Z</updated>
+  <updated>2018-12-29T14:15:04.914Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>sql_server</title>
+    <link href="http://yoursite.com/2018/12/29/sql-server/"/>
+    <id>http://yoursite.com/2018/12/29/sql-server/</id>
+    <published>2018-12-29T14:02:14.000Z</published>
+    <updated>2018-12-29T14:15:04.914Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="这里是对sql-server的某些简单语法的总结。"><a href="#这里是对sql-server的某些简单语法的总结。" class="headerlink" title="这里是对sql server的某些简单语法的总结。"></a>这里是对sql server的某些简单语法的总结。</h5><ol><li><p>存储过程</p><p>a. 声明变量</p><p>declare @变量名 变量类型 <a id="more"></a></p><p>b. 变量赋值 </p><p>set @变量名 = val </p><p>or </p><p>select @变量名 = val</p><p>c. 打印变量 </p><p>print @变量名</p></li><li><p>游标(cursor)</p><p>a. 声明游标</p><p>declare 游标名 cursor for select 语句</p><p>b. 打开(open)游标</p><p>open 游标名</p><p>c. 获取游标中的值</p><p>fetch next from 游标名 into 临时变量</p><p>while @@fetch_status = 0 // 代表游标中还有值</p><p>​    fetch next from 游标名 into 临时变量</p><p>d. 关闭游标</p><p>close 游标名</p><p>e. 摧毁游标</p><p>deallocate 游标名</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h5 id=&quot;这里是对sql-server的某些简单语法的总结。&quot;&gt;&lt;a href=&quot;#这里是对sql-server的某些简单语法的总结。&quot; class=&quot;headerlink&quot; title=&quot;这里是对sql server的某些简单语法的总结。&quot;&gt;&lt;/a&gt;这里是对sql server的某些简单语法的总结。&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;存储过程&lt;/p&gt;
+&lt;p&gt;a. 声明变量&lt;/p&gt;
+&lt;p&gt;declare @变量名 变量类型
+    
+    </summary>
+    
+      <category term="sql server" scheme="http://yoursite.com/categories/sql-server/"/>
+    
+    
+      <category term="sql server" scheme="http://yoursite.com/tags/sql-server/"/>
+    
+  </entry>
   
   <entry>
     <title>pymssql</title>
