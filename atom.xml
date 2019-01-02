@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-29T14:15:04.914Z</updated>
+  <updated>2019-01-02T09:27:17.481Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据库基础总结</title>
+    <link href="http://yoursite.com/2019/01/02/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93/"/>
+    <id>http://yoursite.com/2019/01/02/数据库基础总结/</id>
+    <published>2019-01-02T09:10:15.000Z</published>
+    <updated>2019-01-02T09:27:17.481Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="这是一篇关于数据库基础的概念的总结"><a href="#这是一篇关于数据库基础的概念的总结" class="headerlink" title="这是一篇关于数据库基础的概念的总结"></a>这是一篇关于数据库基础的概念的总结</h5><p>一. 数据库的4个基本概念</p><ol><li><p>数据(data)</p><p>描述事物的符号记录称为<u><strong>数据</strong></u>。如: (小埋, 女, 15, 游戏)</p><p>数据的含义称为数据的语义, 数据与语义是不可分的。</p></li><li><p>数据库(DataBase)</p><p>数据库是<u>长期</u>储存在计算机内, 有组织的, 可共享的大量<u>数据</u>的集合。</p><p>数据库具有<u>较小的冗余度</u>, <u>较高的数据独立性</u>和<u>易扩展性</u>。     </p></li><li><p>数据库管理系统(DataBase Management System)</p></li><li><p>数据库系统(DataBase System)</p><p>数据库系统由</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;这是一篇关于数据库基础的概念的总结&quot;&gt;&lt;a href=&quot;#这是一篇关于数据库基础的概念的总结&quot; class=&quot;headerlink&quot; title=&quot;这是一篇关于数据库基础的概念的总结&quot;&gt;&lt;/a&gt;这是一篇关于数据库基础的概念的总结&lt;/h5&gt;&lt;p&gt;一. 数据库的4个基
+      
+    
+    </summary>
+    
+      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    
+      <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="复习" scheme="http://yoursite.com/tags/%E5%A4%8D%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>sql_server</title>
