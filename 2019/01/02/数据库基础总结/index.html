@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="SuperFiend -- 大魔王驾到">
 <meta property="og:description" content="这是一篇关于数据库基础的总结一. 数据库的4个基本概念  数据(data) 描述事物的符号记录称为数据。如: (小埋, 女, 15, 游戏) 数据的含义称为数据的语义, 数据与语义是不可分的。">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-02T10:05:13.238Z">
+<meta property="og:updated_time" content="2019-01-02T10:32:02.772Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="数据库基础总结">
 <meta name="twitter:description" content="这是一篇关于数据库基础的总结一. 数据库的4个基本概念  数据(data) 描述事物的符号记录称为数据。如: (小埋, 女, 15, 游戏) 数据的含义称为数据的语义, 数据与语义是不可分的。">
@@ -91,7 +91,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h5 id="这是一篇关于数据库基础的总结"><a href="#这是一篇关于数据库基础的总结" class="headerlink" title="这是一篇关于数据库基础的总结"></a>这是一篇关于数据库基础的总结</h5><p>一. 数据库的4个基本概念</p>
+        <h5 id="这是一篇关于数据库基础的总结"><a href="#这是一篇关于数据库基础的总结" class="headerlink" title="这是一篇关于数据库基础的总结"></a>这是一篇关于数据库基础的总结</h5><p>一. <strong>数据库的4个基本概念</strong></p>
 <ol>
 <li><p>数据(data)</p>
 <p>描述事物的符号记录称为<u><strong>数据</strong></u>。如: (小埋, 女, 15, 游戏)</p>
@@ -107,7 +107,7 @@
 <p>数据库系统由数据库, 数据库管理系统, 应用程序和数据库管理员组成。</p>
 </li>
 </ol>
-<p>二. 数据管理技术的发展</p>
+<p>二. <strong>数据管理技术的发展</strong></p>
 <ol>
 <li><p>人工管理阶段</p>
 </li>
@@ -118,7 +118,7 @@
 <li><p><u>从文件系统到数据库系统标志着数据库技术的飞跃</u>。</p>
 </li>
 </ol>
-<p>三. 数据库的主要特征</p>
+<p>三. <strong>数据库的主要特征</strong></p>
 <ol>
 <li><p>数据结构化</p>
 </li>
@@ -129,7 +129,7 @@
 <li><p>数据由数据库管理系统统一管理和控制</p>
 </li>
 </ol>
-<p>四. 数据模型<br>定义: 数据模型是对现实世界数据特征的抽象, 是数据库系统的核心与基础。<br>两类数据库模型: 第一类概念模型, 第二类逻辑模型和物理模型<br>概念模型: 概念模型, 也称信息模型。</p>
+<p>四. <strong>数据模型</strong><br>定义: 数据模型是对现实世界数据特征的抽象, 是数据库系统的核心与基础。<br>两类数据库模型: 第一类概念模型, 第二类逻辑模型和物理模型<br>概念模型: 概念模型, 也称信息模型。</p>
 <ol>
 <li><p>信息世界中的基本概念</p>
 <p>(1). 实体(entity) </p>
@@ -145,13 +145,62 @@
 <p>(6). 联系(relationship)</p>
 <p>实体之间的联系通常是指不同实体集之间的联系。实体之间的联系有一对一, 一对多和多对多等多种联系。</p>
 </li>
+<li><p>概念模型的一种标识方法: 实体-联系方法</p>
+<p>E-R方法也称为E-R模型。</p>
+</li>
 </ol>
 <p>逻辑模型和物理模型: 主要包括层次模型, 网状模型, 关系模型, 面向对象模型和对象关系数据模型, 半结构化数据模型等, 是按计算机系统的观点对数据建模。</p>
+<p><strong>组成要素</strong></p>
+<p>通常由数据结构, 数据操作和数据的完整性约束条件三部分组成。</p>
+<p><strong>常用的数据模型</strong></p>
+<ul>
+<li><p>层次模型</p>
+</li>
+<li><p>网状模型</p>
+</li>
+<li><p>关系模型</p>
+</li>
+<li><p>面向对象数据模型</p>
+</li>
+<li><p>对象关系数据模型</p>
+</li>
+<li><p>半结构化数据模型</p>
+</li>
+</ul>
+<p><strong>层次模型</strong></p>
+<p>定义:</p>
+<ol>
+<li><p>有且只有一个节点没有双亲(根节点)</p>
+</li>
+<li><p>根以外的节点有且只有一个双亲节点</p>
+</li>
+</ol>
+<p><strong>网状模型</strong></p>
+<p>定义: </p>
+<ol>
+<li>允许一个以上的节点无双亲</li>
+<li>一个节点可以有多余一个的双亲</li>
+</ol>
+<p><strong>关系模型</strong></p>
+<ol>
+<li><p>关系模型的数据结构(二维表)</p>
+<p>关系(relation): 一张二维表</p>
+<p>元祖(tuple): 表中的一行数据</p>
+<p>属性(attribute): 表中的一列</p>
+<p>码(key): 也称为码键, 可以唯一确定一个元祖</p>
+<p>域(domain): 具有相同的数据类型的值</p>
+<p>分量: 元组中的一个属性值</p>
+<p>关系模式: 对关系的描述(如: 学生(学号, 姓名, 性别, 年龄))。</p>
+<p><u>关系的每一个分量必须是不可分的数据项</u>。</p>
+</li>
+</ol>
+<p><strong>数据库系统的结构</strong></p>
+<p>数据库系统的三级模式结构: 外模式, 模式, 内模式</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/02/数据库基础总结/" data-id="cjqf0nan0000yz8da5qns6fsc" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/01/02/数据库基础总结/" data-id="cjqf1ltr5000tnwda88at8sdv" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/复习/">复习</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/数据库/">数据库</a></li></ul>
