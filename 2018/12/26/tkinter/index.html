@@ -7,18 +7,18 @@
   
   <title>tkinter | SuperFiend -- 大魔王驾到</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="今天学习了tkinter, 本来不想要记录下来的, 但是, 想到时间永远是记忆最大的敌人, 还是记录下来好了。  窗口对象 Tk -&amp;gt; tk = Tk()  窗口开始 tk.mainloop()">
+  <meta name="description" content="今天学习了tkinter, 本来不想要记录下来的, 但是, 想到时间永远是记忆最大的敌人, 还是记录下来好了。 窗口对象 Tk -&amp;gt; tk = Tk()  窗口开始 tk.mainloop()">
 <meta name="keywords" content="python,tkinter">
 <meta property="og:type" content="article">
 <meta property="og:title" content="tkinter">
 <meta property="og:url" content="http://yoursite.com/2018/12/26/tkinter/index.html">
 <meta property="og:site_name" content="SuperFiend -- 大魔王驾到">
-<meta property="og:description" content="今天学习了tkinter, 本来不想要记录下来的, 但是, 想到时间永远是记忆最大的敌人, 还是记录下来好了。  窗口对象 Tk -&amp;gt; tk = Tk()  窗口开始 tk.mainloop()">
+<meta property="og:description" content="今天学习了tkinter, 本来不想要记录下来的, 但是, 想到时间永远是记忆最大的敌人, 还是记录下来好了。 窗口对象 Tk -&amp;gt; tk = Tk()  窗口开始 tk.mainloop()">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-12-26T16:11:06.510Z">
+<meta property="og:updated_time" content="2019-01-05T09:30:39.019Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="tkinter">
-<meta name="twitter:description" content="今天学习了tkinter, 本来不想要记录下来的, 但是, 想到时间永远是记忆最大的敌人, 还是记录下来好了。  窗口对象 Tk -&amp;gt; tk = Tk()  窗口开始 tk.mainloop()">
+<meta name="twitter:description" content="今天学习了tkinter, 本来不想要记录下来的, 但是, 想到时间永远是记忆最大的敌人, 还是记录下来好了。 窗口对象 Tk -&amp;gt; tk = Tk()  窗口开始 tk.mainloop()">
   
     <link rel="alternate" href="/atom.xml" title="SuperFiend -- 大魔王驾到" type="application/atom+xml">
   
@@ -91,8 +91,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>今天学习了tkinter, 本来不想要记录下来的, 但是, 想到时间永远是记忆最大的敌人, 还是记录下来好了。</p>
-<ol>
+        <h5 id="今天学习了tkinter-本来不想要记录下来的-但是-想到时间永远是记忆最大的敌人-还是记录下来好了。"><a href="#今天学习了tkinter-本来不想要记录下来的-但是-想到时间永远是记忆最大的敌人-还是记录下来好了。" class="headerlink" title="今天学习了tkinter, 本来不想要记录下来的, 但是, 想到时间永远是记忆最大的敌人, 还是记录下来好了。"></a>今天学习了tkinter, 本来不想要记录下来的, 但是, 想到时间永远是记忆最大的敌人, 还是记录下来好了。</h5><ol>
 <li><p>窗口对象 Tk -&gt; tk = Tk()</p>
 </li>
 <li><p>窗口开始 tk.mainloop()<a id="more"></a></p>
@@ -110,11 +109,25 @@
 <p>b. grid(row=?, column=?)</p>
 </li>
 </ol>
+<h5 id="前些天写了这篇文章-今天来完善一下。"><a href="#前些天写了这篇文章-今天来完善一下。" class="headerlink" title="前些天写了这篇文章, 今天来完善一下。"></a>前些天写了这篇文章, 今天来完善一下。</h5><ol>
+<li><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tk.title(<span class="string">'我是窗体的标题'</span>)  <span class="comment"># 设置文章的标题</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tk.resizable(<span class="keyword">False</span>, <span class="keyword">False</span>) <span class="comment"># 设置窗体不可以进行缩放</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tk.geometry(<span class="string">'240x200'</span>) <span class="comment"># 设置窗体的大小, x为英文字母</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tk.quit() <span class="comment"># 退出窗口</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tk.update() <span class="comment"># 刷新窗口</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tk.mainloop() <span class="comment"># 开始执行窗口</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/12/26/tkinter/" data-id="cjqj955rj000plgda9cyqi0x1" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/12/26/tkinter/" data-id="cjqj9qcb9000tigdayjp7kwg8" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tkinter/">tkinter</a></li></ul>
