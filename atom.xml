@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-05T07:04:08.985Z</updated>
+  <updated>2019-01-05T07:13:10.666Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2019/01/05/js/"/>
     <id>http://yoursite.com/2019/01/05/js/</id>
     <published>2019-01-05T06:53:17.000Z</published>
-    <updated>2019-01-05T07:04:08.985Z</updated>
+    <updated>2019-01-05T07:13:10.666Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="这里总结了最近自己用到的某些js语法。"><a href="#这里总结了最近自己用到的某些js语法。" class="headerlink" title="这里总结了最近自己用到的某些js语法。"></a>这里总结了最近自己用到的某些js语法。</h5><ol><li><p>定时器函数(setinterval)</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">setInterval</span>(<span class="params">handler: TimerHandler, timeout?: number, ...arguments: any[]</span>): <span class="title">number</span>;</span></span><br></pre></td></tr></table></figure><p>注意事项: 目前来看, setInterval函数无法使用class的成员变量与方法。</p></li><li></li></ol>]]></content>
+    <content type="html"><![CDATA[<h5 id="这里总结了最近自己用到的某些js语法。"><a href="#这里总结了最近自己用到的某些js语法。" class="headerlink" title="这里总结了最近自己用到的某些js语法。"></a>这里总结了最近自己用到的某些js语法。</h5><ol><li><p>定时器函数(setInterval)</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">setInterval</span>(<span class="params">handler: TimerHandler, timeout?: number, ...arguments: any[]</span>): <span class="title">number</span>;</span></span><br></pre></td></tr></table></figure><p>注意事项: 目前来看, setInterval函数无法使用class的成员变量与方法。</p></li><li><p>定时器函数(setTimeout)</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">setTimeout</span>(<span class="params">handler: TimerHandler, timeout?: number, ...arguments: any[]</span>): <span class="title">number</span>;</span></span><br></pre></td></tr></table></figure><p>注意事项: 该方法只会执行一次。</p></li></ol>]]></content>
     
     <summary type="html">
     
