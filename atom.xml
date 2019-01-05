@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-05T07:13:10.666Z</updated>
+  <updated>2019-01-05T07:23:45.961Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,16 @@
     <link href="http://yoursite.com/2019/01/05/js/"/>
     <id>http://yoursite.com/2019/01/05/js/</id>
     <published>2019-01-05T06:53:17.000Z</published>
-    <updated>2019-01-05T07:13:10.666Z</updated>
+    <updated>2019-01-05T07:23:45.961Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="这里总结了最近自己用到的某些js语法。"><a href="#这里总结了最近自己用到的某些js语法。" class="headerlink" title="这里总结了最近自己用到的某些js语法。"></a>这里总结了最近自己用到的某些js语法。</h5><ol><li><p>定时器函数(setInterval)</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">setInterval</span>(<span class="params">handler: TimerHandler, timeout?: number, ...arguments: any[]</span>): <span class="title">number</span>;</span></span><br></pre></td></tr></table></figure><p>注意事项: 目前来看, setInterval函数无法使用class的成员变量与方法。</p></li><li><p>定时器函数(setTimeout)</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">setTimeout</span>(<span class="params">handler: TimerHandler, timeout?: number, ...arguments: any[]</span>): <span class="title">number</span>;</span></span><br></pre></td></tr></table></figure><p>注意事项: 该方法只会执行一次。</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<h5 id="这里总结了最近自己用到的某些js语法。"><a href="#这里总结了最近自己用到的某些js语法。" class="headerlink" title="这里总结了最近自己用到的某些js语法。"></a>这里总结了最近自己用到的某些js语法。</h5><ol><li><p>定时器函数(setInterval)</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">setInterval</span>(<span class="params">handler: TimerHandler, timeout?: number, ...arguments: any[]</span>): <span class="title">number</span>;</span></span><br></pre></td></tr></table></figure><p>注意事项: 目前来看, setInterval函数无法使用class的成员变量与方法。 <a id="more"></a></p></li><li><p>定时器函数(setTimeout)</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">setTimeout</span>(<span class="params">handler: TimerHandler, timeout?: number, ...arguments: any[]</span>): <span class="title">number</span>;</span></span><br></pre></td></tr></table></figure><p>注意事项: 该方法只会执行一次。</p></li><li><p>文件读取对象(FileReader)</p><p>a. 获取文件对象</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> file = $(<span class="string">'#file'</span>)[<span class="number">0</span>].files[<span class="number">0</span>];</span><br></pre></td></tr></table></figure><p>b. 获取文件内容</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> reader = <span class="keyword">new</span> FileReader();</span><br><span class="line">reader.readAsText(file, <span class="string">'utf-8'</span>);</span><br><span class="line">reader.onload=<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    alert(reader.result);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ol>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h5 id=&quot;这里总结了最近自己用到的某些js语法。&quot;&gt;&lt;a href=&quot;#这里总结了最近自己用到的某些js语法。&quot; class=&quot;headerlink&quot; title=&quot;这里总结了最近自己用到的某些js语法。&quot;&gt;&lt;/a&gt;这里总结了最近自己用到的某些js语法。&lt;/h5&gt;&lt;ol&gt;
-
-      
+      &lt;h5 id=&quot;这里总结了最近自己用到的某些js语法。&quot;&gt;&lt;a href=&quot;#这里总结了最近自己用到的某些js语法。&quot; class=&quot;headerlink&quot; title=&quot;这里总结了最近自己用到的某些js语法。&quot;&gt;&lt;/a&gt;这里总结了最近自己用到的某些js语法。&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;定时器函数(setInterval)&lt;/p&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;setInterval&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;handler: TimerHandler, timeout?: number, ...arguments: any[]&lt;/span&gt;): &lt;span class=&quot;title&quot;&gt;number&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;注意事项: 目前来看, setInterval函数无法使用class的成员变量与方法。
     
     </summary>
     
