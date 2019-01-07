@@ -5,20 +5,20 @@
   
 
   
-  <title>想看的动漫系列 | SuperFiend -- 大魔王驾到</title>
+  <title>easyx常用函数 | SuperFiend -- 大魔王驾到</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="这篇文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过 偶像大师灰姑娘女孩    轻音少女">
-<meta name="keywords" content="动漫">
+  <meta name="description" content="这篇文章主要记录最近在工程实践中使用到的几个常用函数, 参考easyx文档。 画圆 a. 空心圆 12345void circle(    int x, // 圆心的 x 坐标。    int y, // 圆心的 y 坐标。    int radius // 圆的半径。); b. 填充圆">
+<meta name="keywords" content="easyx,绘图">
 <meta property="og:type" content="article">
-<meta property="og:title" content="想看的动漫系列">
-<meta property="og:url" content="http://yoursite.com/2018/12/22/想看的动漫系列/index.html">
+<meta property="og:title" content="easyx常用函数">
+<meta property="og:url" content="http://yoursite.com/2019/01/07/easyx常用函数/index.html">
 <meta property="og:site_name" content="SuperFiend -- 大魔王驾到">
-<meta property="og:description" content="这篇文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过 偶像大师灰姑娘女孩    轻音少女">
+<meta property="og:description" content="这篇文章主要记录最近在工程实践中使用到的几个常用函数, 参考easyx文档。 画圆 a. 空心圆 12345void circle(    int x, // 圆心的 x 坐标。    int y, // 圆心的 y 坐标。    int radius // 圆的半径。); b. 填充圆">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-12-22T17:35:55.994Z">
+<meta property="og:updated_time" content="2019-01-07T11:40:47.994Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="想看的动漫系列">
-<meta name="twitter:description" content="这篇文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过 偶像大师灰姑娘女孩    轻音少女">
+<meta name="twitter:title" content="easyx常用函数">
+<meta name="twitter:description" content="这篇文章主要记录最近在工程实践中使用到的几个常用函数, 参考easyx文档。 画圆 a. 空心圆 12345void circle(    int x, // 圆心的 x 坐标。    int y, // 圆心的 y 坐标。    int radius // 圆的半径。); b. 填充圆">
   
     <link rel="alternate" href="/atom.xml" title="SuperFiend -- 大魔王驾到" type="application/atom+xml">
   
@@ -65,14 +65,14 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-想看的动漫系列" class="article article-type-post" itemscope="" itemprop="blogPost">
+        <section id="main"><article id="post-easyx常用函数" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/12/22/想看的动漫系列/" class="article-date">
-  <time datetime="2018-12-22T12:29:58.000Z" itemprop="datePublished">2018-12-22</time>
+    <a href="/2019/01/07/easyx常用函数/" class="article-date">
+  <time datetime="2019-01-07T11:09:32.000Z" itemprop="datePublished">2019-01-07</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/categories/动漫/">动漫</a>
+    <a class="article-category-link" href="/categories/easyx/">easyx</a>
   </div>
 
   </div>
@@ -83,7 +83,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      想看的动漫系列
+      easyx常用函数
     </h1>
   
 
@@ -91,26 +91,42 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h5 id="这篇文章记录了自己想看的动漫-其中有的看过一点-有的没有看过"><a href="#这篇文章记录了自己想看的动漫-其中有的看过一点-有的没有看过" class="headerlink" title="这篇文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过"></a>这篇文章记录了自己想看的动漫, 其中有的看过一点, 有的没有看过</h5><ol>
-<li>偶像大师灰姑娘女孩   </li>
-<li>轻音少女  <a id="more"></a></li>
-<li>taritari  </li>
-<li>六心公主  </li>
-<li>a频道  </li>
-<li>佐贺偶像是传奇  </li>
-<li>玉子爱情故事  </li>
-<li>战姬绝唱   </li>
-<li>寄宿学校的朱丽叶  </li>
-<li>夏色奇迹</li>
+        <h5 id="这篇文章主要记录最近在工程实践中使用到的几个常用函数-参考easyx文档。"><a href="#这篇文章主要记录最近在工程实践中使用到的几个常用函数-参考easyx文档。" class="headerlink" title="这篇文章主要记录最近在工程实践中使用到的几个常用函数, 参考easyx文档。"></a>这篇文章主要记录最近在工程实践中使用到的几个常用函数, 参考easyx文档。</h5><ol>
+<li><p>画圆</p>
+<p>a. 空心圆</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">circle</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> x, <span class="comment">// 圆心的 x 坐标。</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> y, <span class="comment">// 圆心的 y 坐标。</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> radius <span class="comment">// 圆的半径。</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+<p>b. 填充圆 <a id="more"></a></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">fillcircle</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> x, <span class="comment">// 圆心的 x 坐标。</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> y, <span class="comment">// 圆心的 y 坐标。</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> radius <span class="comment">// 圆的半径。</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>画线</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">line</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> x1, <span class="comment">// 直线的起始点的 x 坐标。</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> y1, <span class="comment">// 直线的起始点的 y 坐标。</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> x2, <span class="comment">// 直线的终止点的 x 坐标。</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> y2  <span class="comment">// 直线的终止点的 y 坐标。</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>设置线的样式(实线/虚线)</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">setlinestyle</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> style <span class="comment">// PS_SOLID(实线), PS_DASH(---), PS_DOT(···) ...</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>设置颜色</p>
+<p>a. 设置画线的颜色</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">setlinecolor</span><span class="params">(COLORREF color)</span></span>;</span><br></pre></td></tr></table></figure>
+<p>b. 设置背景的颜色</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">setbkcolor</span><span class="params">(COLORREF color)</span></span>;</span><br></pre></td></tr></table></figure>
+<p>c. 设置文字的颜色</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">settextcolor</span><span class="params">(COLORREF color)</span></span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>睡眠(该函数不属于easyx, 来自头文件conio.h)</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Sleep</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params"><span class="keyword">long</span> _In_ DWORD dwMilliseconds <span class="comment">// 睡眠时间</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>文本</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">outtextxy</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> x, <span class="comment">// 字符串输出时头字母的 x 轴的坐标值。</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> y, <span class="comment">// 字符串输出时头字母的 y 轴的坐标值。</span></span></span></span><br><span class="line"><span class="function"><span class="params">    LPCTSTR str <span class="comment">// 待输出的字符串的指针。</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+</li>
 </ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/12/22/想看的动漫系列/" data-id="cjqm9cesy0012csdabrx7owki" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/01/07/easyx常用函数/" data-id="cjqm9cerh0002csda5wjxoqny" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/动漫/">动漫</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/easyx/">easyx</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/绘图/">绘图</a></li></ul>
 
     </footer>
   </div>
@@ -118,19 +134,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2018/12/23/http请求状态码/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          http请求状态码
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/12/22/nmp安装错误/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2019/01/05/flask/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">npm安装错误</div>
+      <div class="article-nav-title">flask</div>
     </a>
   
 </nav>
