@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="SuperFiend -- 大魔王驾到">
 <meta property="og:description" content="这篇文章主要记录最近在工程实践中使用到的几个常用函数, 参考easyx文档。 easyx界面的一般模板 123456initgraph(720, 640); // 初始化一个面板, 长720, 宽640// ... 这里可以添加面板控件getch(); // 等待键盘输入(实质是暂停等待, 避免界面一闪而过)closegraph(); // 关闭面板  画圆 a. 空心圆 12345void ci">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-13T08:59:11.442Z">
+<meta property="og:updated_time" content="2019-01-25T04:56:53.795Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="easyx常用函数">
 <meta name="twitter:description" content="这篇文章主要记录最近在工程实践中使用到的几个常用函数, 参考easyx文档。 easyx界面的一般模板 123456initgraph(720, 640); // 初始化一个面板, 长720, 宽640// ... 这里可以添加面板控件getch(); // 等待键盘输入(实质是暂停等待, 避免界面一闪而过)closegraph(); // 关闭面板  画圆 a. 空心圆 12345void ci">
@@ -121,12 +121,21 @@
 <li><p>文本</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">outtextxy</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> x, <span class="comment">// 字符串输出时头字母的 x 轴的坐标值。</span></span></span></span><br><span class="line"><span class="function"><span class="params">    <span class="keyword">int</span> y, <span class="comment">// 字符串输出时头字母的 y 轴的坐标值。</span></span></span></span><br><span class="line"><span class="function"><span class="params">    LPCTSTR str <span class="comment">// 待输出的字符串的指针。</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
 </li>
+<li><p>颜色</p>
+<p>预定义颜色常量RED, BLUE…, 自定义颜色, 十六进制数字(0x开头)</p>
+</li>
+<li><p>输入文本框 </p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">InputBox</span><span class="params">(</span></span></span><br><span class="line"><span class="function"><span class="params">	LPTSTR	pString, <span class="comment">// 指定接收用户输入字符串的指针。</span></span></span></span><br><span class="line"><span class="function"><span class="params">	<span class="keyword">int</span>	nMaxCount <span class="comment">// 指定 pString 指向的缓冲区的大小，该值会限制用户输入内容的长度。缓冲区的大小包括表示字符串结尾的 '\0' 字符。</span></span></span></span><br><span class="line"><span class="function"><span class="params">)</span></span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>相关连接</p>
+<p><a href="https://blog.csdn.net/jianxia_wzx/article/details/7775615" target="_blank" rel="noopener">https://blog.csdn.net/jianxia_wzx/article/details/7775615</a></p>
+</li>
 </ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/01/07/easyx常用函数/" data-id="cjqz4tnfx000a10da9n50sq1n" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/01/07/easyx常用函数/" data-id="cjrbks0fq0000hcdae7mrfnsi" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/easyx/">easyx</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/绘图/">绘图</a></li></ul>
